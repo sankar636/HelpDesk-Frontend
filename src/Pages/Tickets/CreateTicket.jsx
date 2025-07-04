@@ -1,6 +1,6 @@
 // src/Pages/Tickets/CreateTicket.jsx
 import React from 'react';
-import HumanVerificationImg from '../../assets/HumanVerificationImg.png';
+import Verify from '../../assets/Verify.png';
 import DashboardLayout from '../../Components/Common/DashboardLayout';
 
 const CreateTicket = () => {
@@ -69,7 +69,7 @@ const CreateTicket = () => {
         <div className="mt-6 w-[984px] mx-auto flex justify-between items-center">
           <div className="w-[501px] h-[144px]">
             <img
-              src={HumanVerificationImg}
+              src={Verify}
               alt="I'm not a robot"
               className="w-full h-full object-contain"
             />
