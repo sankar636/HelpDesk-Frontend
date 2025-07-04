@@ -7,7 +7,7 @@ import AdminDashboard from './Pages/Dashboard/AdminDashboard.jsx';
 import OpsDashboard from './Pages/Dashboard/OpsDashboard.jsx';
 import TechDashboard from './Pages/Dashboard/TechDashboard.jsx';
 import CreateTicket from './Pages/Tickets/CreateTicket.jsx';
-import MyTicket from './Pages/Tickets/Mytickets.jsx';
+import MyTickets from './Pages/Tickets/MyTickets.jsx'
 import UserProfile from './Pages/Profile/UserProfile.jsx';
 import UserProfileSetting from './Pages/Profile/UserProfileSetting.jsx';
 import UserProtectedWrapper from './Pages/Auth/UserProtectedWrapper.jsx';
@@ -39,7 +39,7 @@ function App() {
           path="/user/my-tickets"
           element={
             <UserProtectedWrapper>
-              <MyTicket />
+              <MyTickets />
             </UserProtectedWrapper>
           }
         />
